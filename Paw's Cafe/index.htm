@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html>
+    <!--Paw's café is a non-proft organization whose focus is to promote the strengthening of the bond between pets and their owners.-->
+	<head>
+    <!--
+        JQueryMobile Theme Roller
+        https://themeroller.jquerymobile.com/
+	-->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Welcome to Paw's Caf&#233;</title>
+	<link rel="icon" href="paws_favicon.png" type="image/png" />
+        
+	<link rel="stylesheet" href="themes/paws_cafe.min.css" />
+	<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial scale=1, maximum-scale=1">
+	
+    <title>Paw's Caf&#233;</title>
+    <meta name="description" content="A Cat and Dog-themed cafe. Open to all pet/coffee lovers! Bring your furry friend on a café date.">
+    <meta name="keywords" content="Pet Play Areas, Cat Cafe, Dog Cafe, Non-profit for pets">
+    <meta name="author" content="Daniel Thipphavong.">
+	
+	<!--style-->
+	<style>
+		img.fullscreen{
+            max-height: 100%;
+            max-width: 100%;
+		}
+        img.radius{
+            border-radius: 25px;
+        }
+	</style>
+	</head>
+	<!--body-->
+    <body onLoad="show_clock()">
+        <!--
+            Page 1 - Main Page
+        -->
+        <!--
+            This is the first page the user sees. Every month a new front page is made to keep current with the seasons.
+            December is the holiday season to reflect on the years past, and to look forward to the future.
+            It's a time to be thankful for the things we may take for granted, such as a good pet's friendship.
+        --> 
+        <div data-role="page" id="home">
+        <!--
+            Panel - Menu
+        -->
+        <!--
+            For the young and old, the Menu Panel is simple to use and playful in design.
+            This is where the user navigates throughout the mobile website.
+        --> 
+		<div id="menu" data-role="panel" data-display="reveal" data-theme="a">
+            <div data-role="content">
+                <ul data-role="listview">
+                    <li>
+                        <a href="#about_us" data-transition="slide">
+                            <h1>About Us<br>
+                            <img src="images/paws_cafe_logo.png" class="radius" alt="Paw's Caf&#233;"></h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#for_cats" data-transition="slide">
+                            <h1>For Cats<br>
+                            <img src="images/pawprint_cats.jpg" class="radius" alt="Cats"></h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#for_dogs" data-transition="slide">
+                            <h1>For Dogs<br>
+                            <img src="images/pawprint_dogs.jpg" class="radius" alt="Dogs"></h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#ppa" data-transition="slide">
+                            <h1>Pet Play Areas<br>
+                            <img src="images/ppa.png" class="radius" alt="PPA"></h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#for_you" data-transition="slide">
+                            <h1>For You<br>
+                            <img src="images/for_you.png" class="radius" alt="For You"></h1>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+		</div>
+     
+        <!--Header: Main-->
+		<header data-role="header" id="home">
+            <h1>Paw's Caf&#233;</h1>
+			<a href="#menu" data-icon="bars">Menu</a>
+        </header>
+   
+        <!--Content: Main-->
+        <div data-role="content">                
+            <ul data-role="listview" data-inset="true" data-icon="plus" class="ui-icon-alt .ui-icon">
+                <li>
+                    <div data-role="content" data-theme="a">
+                        <h4>Happy Holidays!</h4>
+                        <p>Woof Woof Meow Meow</p>
+                        <p>Spend your holiday with us!</p>
+                        <img src="images/cat_dog_christmas.jpg" class="fullscreen" alt="image not available">
+                    </div>
+                </li>
+            </ul> 
+        </div>
+
+        <!--Footer: Main-->
+        <footer data-role="footer" data-position="fixed" data-theme="a">
+            <h1>Last Modified: 12/12/16
+            <br>
+            <!--Used Javascript from DynamicDrive library-->
+            <!--http://dynamicdrive.com/dynamicindex6/clock2.htm-->
+            <script language="javascript" src="liveclock.js">
+
+            /*
+            Live Clock Script-
+            By Mark Plachetta (astro@bigpond.net.au(c)) based on code from DynamicDrive.com
+            For full source code, 100's more DHTML scripts, and Terms Of Use,
+            visit http://www.dynamicdrive.com
+            */
+
+            </script>
+            <br>E-mail me <a href="mailto:danielty@hawaii.edu"data-role="button">Here</a></h1>
+        </footer>
+        </div> <!--This is end of Page 1-->
+        
+        <!--
+            Page 2 - About us
+        -->
+        <!--
+            This is the seacond page - About Us. This is where the user learns more about who we are and what we do.
+            We provide a place for pets and owners to spend quality time with each outher outside the house.
+            A playgroud for pets and their owners.
+        --> 
+        <div data-role="page" id="about_us">
+
+            <!--Header: About us-->
+            <header data-role="header">
+                <h1>About Us</h1>
+                <a href="#home" data-transition="flip" data-icon="home">Home</a>
+            </header>
+
+            <!--Content: About us-->
+            <div data-role="content">                
+                <ul data-role="listview" data-inset="true" data-icon="plus" class="ui-icon-alt .ui-icon">
+                    <li>
+                        <div data-role="content" data-theme="a">
+                            <h2>Welcome to Paw's Caf&#233;</h2>
+                            <p>Every pet is a good pet.</p>
+                            <img src="images/pet_date.png" class="fullscreen" alt="image not available">
+                            <p>Take them out on a date and visit our
+                            <br>specialized pet play areas.</p>
+                            <center><strong>(Cats and Dogs only)</strong></center>
+                            <p>Paw's café is a non-proft
+                            <br>organization whose focus is to
+                            <br>promote the strengthening of
+                            <br>the bond between pets and
+                            <br>their owners.</p>
+                        </div>
+                    </li>
+                </ul>    
+            </div>
+
+            <!--Footer: About us-->            
+            <footer data-role="footer" data-position="fixed">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#for_cats" data-transition="slide" data-icon="carat-r">For Cats</a></li>
+                        <li><a href="#for_dogs" data-transition="slide" data-icon="carat-r">For Dogs</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </div> <!--This is end of Page 2-->        
+        
+        <!--
+            Page 3 - Cats
+        -->
+        <!--
+            This is the third page - For Cats.
+            Cats like the indoors and the video would be example of that.
+            The footer will take the use to The Cat Room, an indoor pet play area for cats.
+        --> 
+        <div data-role="page" id="for_cats">
+
+            <!--Header: Cats-->
+            <header data-role="header">
+                <h1>For Cats</h1>
+                <a href="#home" data-transition="flip" data-icon="home">Home</a>
+            </header>
+
+            <!--Content: Cats-->
+            <div data-role="content">                
+                <ul data-role="listview" data-inset="true" data-icon="plus" class="ui-icon-alt .ui-icon">
+                    <li>
+                        <div data-role="content" data-theme="a">
+                            <h2>Because Cats
+                            <br>pre-furr being indoors...</h2>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/u8njtHUTcYc" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </li>
+                </ul>    
+            </div>
+
+            <!--Footer: Cats-->            
+            <footer data-role="footer" data-position="fixed">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#cat_room" data-transition="slideup" data-icon="carat-r">The Cat Room</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </div> <!--This is end of Page 3-->
+        
+        <!--
+            Page 4 - Dogs
+        -->
+        <!--
+            This is the fourth page - For Dogs.
+            Dogs like the outdoors and the video would be example of that.
+            The footer will take the use to Doggie Park, an outdoor pet play area for dogs.
+        --> 
+        <div data-role="page" id="for_dogs">
+            
+            <!--Header: Dogs-->
+            <header data-role="header">
+                <h1>For Dogs</h1>
+                <a href="#home" data-transition="flip" data-icon="home">Home</a>
+            </header>
+            
+            <!--Content: Dogs-->
+            <div data-role="content">                
+                <ul data-role="listview" data-inset="true" data-icon="plus" class="ui-icon-alt .ui-icon">
+                    <li>
+                        <div data-role="content" data-theme="a">
+                            <h2>Because Dogs
+                            <br>lov-ruff the outdoors...</h2>
+                            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/DVzKX6R16ks" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </li>
+                </ul>    
+            </div>
+            
+            <!--Footer: Dogs-->            
+            <footer data-role="footer" data-position="fixed">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#doggie_park" data-transition="slideup" data-icon="carat-r">Doggie Park</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </div> <!--This is end of Page 4-->
+        
+        <!--
+            Page 5 - Pet Play Areas (PPA)
+        -->
+        <!--
+            This is the fifth page - PPA.
+            PPA, or Pet Play Areas, are where pets and owners can play with each other, and others, in specialized areas to achieve the maximum amount of fun.
+        --> 
+        <div data-role="page" data-transition="slide" id="ppa">
+
+            <!--Header: PPA-->
+            <header data-role="header">
+                <h1>Pet Play Area</h1>
+                <a href="#home" data-transition="flip" data-icon="home">Home</a>
+            </header>
+            
+            <!--Content: PPA-->
+            <div data-role="content">
+                <h1>Pet Play Areas
+                <br>(PPA)</h1>
+
+                <ul data-role="listview" data-inset="true" data-icon="plus" class="ui-icon-alt .ui-icon">
+                    <li>
+                        <div data-role="content" data-theme="a">
+                            <h2>Why have PPA? Well...</h2>
+                            <img src="images/ppa.gif" class="fullscreen" alt="...they might fight">
+                        </div>
+                    </li>
+                    <li>
+                        <div data-role="collapsible" data-theme="a" data-inset="true" data-icon="plus" class="ui-icon-alt .ui-icon">
+                            <h4>Visit - The Cat Room</h4>
+                            <p></p>
+                            <a href="#cat_room" data-transition="slideup"><img src="images/cat.jpg" alt="Meow"></a>
+                        </div>
+                    </li>
+                    <li>
+                        <div data-role="collapsible" data-theme="a" data-inset="true" data-icon="plus" class="ui-icon-alt .ui-icon">
+                            <h4>Visit - Doggie Park</h4>
+                            <p></p>
+                            <a href="#doggie_park" data-transition="slideup"><img src="images/dog.jpg" alt="Woof"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div> <!--This is end of Page 5-->
+
+        <!--
+            Page 6 - For You
+        -->
+        <!--
+            This is the sixth page - For You.
+            Paw's café is still a café for pet owners to get that little pick-me-up before and after playing with your pets.
+            A place not just for pets but for their owners, as well.
+            Also, the user may submit suggestion for us to improve in our bond-strengthening mission.
+        --> 
+        <div data-role="page" id="for_you">
+            
+            <!--Header: For you-->
+            <header data-role="header">
+                <h1>For You</h1>
+                <a href="#home" data-transition="flip" data-icon="home">Home</a>
+            </header>
+            
+            <!--Café-->
+            <div data-role="content">                
+                <ul data-role="listview" data-inset="true" data-icon="plus" class="ui-icon-alt .ui-icon">
+                    <li>
+                        <div data-role="content" data-theme="a">
+                            <h1>We're still a caf&#233;</h1>
+                            <p></p>
+                            <img src="images/cat_mugs.jpg" class="fullscreen" alt="With coffee!">
+                            <p>Stop by the Caf&#233; for a cup of coffee
+                            <br>and meet other pet-owners,
+                            <br>such as yourselves.</p>
+                        </div>
+                    </li>
+                </ul>    
+            
+            <!--Suggestion Form-->
+                <ul data-role="listview" data-inset="true" data-icon="plus" class="ui-icon-alt .ui-icon">
+                    <li>
+                        <div data-role="content" data-theme="a">
+                            <h1>Send us your
+                            <br>Suggestions</h1>
+                            <p>And help us improve Paw's</p>
+                            <p>Coffee's on us on your next visit.
+                            <br>Check your email for the
+                            <br>coffee voucher.</p>
+                            <br>
+                            <form id="suggestions">
+                                First Name:<br>
+                                <input type="text" name="username" maxlength="50"><br>
+                                <br>
+                                Last Name:<br>
+                                <input type="password" name="pwd" maxlength="250"><br>
+                                <br>
+                                <br>
+                                Email address:<br>
+                                <input type="email" name="email" maxlength="250"><br>
+                                <br>
+                                Suggestion(s):
+                                <br>250 character limit
+                                <textarea rows="4" cols="50" maxlength="250" placeholder="Thank you in advance" name="comment" form="usrform"></textarea>
+                                <br>
+                                <input type="button" onClick="submitClear()" name="submit" value="Submit">
+                            </form>
+                            <script>
+                            function submitClear(){
+                                document.getElementById("suggestions").reset();
+                            }
+                            
+                            </script>
+                        </div>
+                    </li>
+                </ul>    
+            </div>
+            
+            
+            
+            <!--Footer: For you-->            
+            <footer data-role="footer" data-position="fixed">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#for_cats" data-transition="slide" data-icon="carat-l">For Cats</a></li>
+                        <li><a href="#for_dogs" data-transition="slide" data-icon="carat-l">For Dogs</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </div> <!--This is end of Page 6-->             
+        
+        <!--
+            Page 7 - The Cat Room
+        -->
+        <!--
+            This is the seventh page - The Cat Room.
+            This PPA is an indoor cat obstacle course for cats to play more than they would at home.
+        --> 
+        <div data-role="page" id="cat_room">
+
+            <!--Header: Cat Room-->
+            <header data-role="header">
+                <h1>The Cat Room</h1>
+                <a href="#home" data-transition="flip" data-icon="home">Home</a>
+            </header>
+
+            <!--Content: Cat Room-->
+            <div data-role="content">                
+                <ul data-role="listview" data-inset="true" data-icon="plus" class="ui-icon-alt .ui-icon">
+                    <li>
+                        <div data-role="content" data-theme="a">
+                            <h2>See for yourself;
+                            <br>cats just want
+                            <br>to have fun.</h2>
+                            <img src="images/cat_room_01.jpg" class="fullscreen" alt="image not available">
+                            <br>
+                            <img src="images/cat_room_02.jpg" class="fullscreen" alt="image not available">
+                        </div>
+                    </li>
+                </ul>    
+            </div>            
+            
+            <!--Footer: Cat Room-->
+            <footer data-role="footer" data-position="fixed">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#ppa" data-transition="slide" data-icon="carat-l">PPA</a></li>
+                        <li><a href="#for_cats" data-transition="slidedown" data-icon="carat-l">For Cats</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </div> <!--This is end of Page 7-->        
+        
+        <!--
+            Page 8 - Doggie Park
+        -->
+        <!--
+            This is the eight page - Doggie Park.
+            This PPA is an outdoor dog obstacle course for dogss to play more than they would at home.
+        --> 
+        <div data-role="page" id="doggie_park">
+        
+            <!--Header: Doggie Park-->
+            <header data-role="header">
+                <h1>Doggie Park</h1>
+                <a href="#home" data-transition="flip" data-icon="home">Home</a>
+            </header>
+
+            <!--Content: Doggie-->
+            <div data-role="content">                
+                <ul data-role="listview" data-inset="true" data-icon="plus" class="ui-icon-alt .ui-icon">
+                    <li>
+                        <div data-role="content" data-theme="a">
+                            <h2>See for yourself;
+                            <br>dogs just want
+                            <br>to have fun.</h2>
+                            <img src="images/doggie_park_01.jpg" class="fullscreen" alt="image not available">
+                            <br>
+                            <img src="images/doggie_park_02.jpg" class="fullscreen" alt="image not available">
+                        </div>
+                    </li>
+                </ul>    
+            </div>                
+            
+            <!--Footer: Doggie Park-->
+            <footer data-role="footer" data-position="fixed">
+                <nav data-role="navbar">
+                    <ul>
+                        <li><a href="#ppa" data-transition="slide" data-icon="carat-l">PPA</a></li>
+                        <li><a href="#for_dogs" data-transition="slidedown" data-icon="carat-l">For Dogs</a></li>
+                    </ul>
+                </nav>
+            </footer>
+        </div> <!--This is end of Page 8-->
+    </body>
+</html>
